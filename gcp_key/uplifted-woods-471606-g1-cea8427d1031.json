@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "uplifted-woods-471606-g1",
+  "private_key_id": "cea8427d1031ae47c3b8e40fc34cd79fdb129368",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCHnNzUwpYqy0I4\nVv1VBLAq2c9HLcDc9Iv7z+Gb/HwTLM+FYW8gzCtnDCXt30mOWHD5psCE8U/yCJOH\nLraLgpVI7QCmHxfsFYKqYDRextOvRLZliDndTuJ7zBmj3L/7XFMtibG6eU3zeAs8\nJt2XqBN5hRWLQpVrGOHFuiQXlcjT2NSvLHkDZowO1D+sMLGgYHYWo+pOHMMkCNaJ\nVt8bZPZ/3rTlicBXCl0dv153ilfoom2zRfJEh+cC2xVgSWfuJ1m7DA0ATtOJn6J6\niR/flH/biWBJjntAh47UVCMA39YuDSV8oiWOT/jl1kpTdqSfwaM3LDvG2WNtyZxK\nw48T0NZpAgMBAAECgf8M9AD/RU2xHg5f2Vz3r6Wd+EhgWXI9Lr0Ln5i2Ozz0BaLx\nUWNF3S5gfrZFUYJl325AalGj5zf+r3GAWY5G3XVAV0qN6NgdECGt/9fDyAk/ZT6A\nsSbuJz9WPne6lrazgoWsU9YNqnAjFE4vLZ+PH9oqEIYQkFGpH/pYUCw6vyYgUtm6\nflpXZY3ixvcGrbEy/JJEj4BYGZ08Myf7woOvFZCvIPDg9AZDsI8VFQ9+otMMPL8y\nwD9vV0ip+H8SSXtevy3VMzjK4C/LZ4H6eOibJ14X3OPFL9vZTverDBrVDf2JFlTL\n8MX2kFsD+tlryZUSfirXekp83XQNxgQf+FguZs8CgYEAvDd8zPOOcOPMta1iIXMk\n/bINg2EKs9OPNzFR4/dVn9s0HhJoZ9a23Ihv4yqUzxTtJeDHTVX5peCmjHHmCRi2\nCnd3ejsVs7xkod4wjZnK0tqwTlzfz5rQoTbsC0c1A7Srzd0Y3E9Br3bbVNTN0UKl\nyRRCMjFIE1qSNAtBnETP+FMCgYEAuHOV5KEMTI6B/zeiZpVM1DPYYfD+jex4hD+4\n+fwkKXVFEuIyj83ZttFm6ateYIPLXy4/pTqmosvJKoP5Xu73ZpwXHfDSJP+gh/IN\n+eVqO34P1rNLmxHkOWNr9xX49K1pt4+6qDrHJjPhs7pMj4kwxm5rg9a9DZ8stFeU\n9vUO7tMCgYB4lUgEemmgk6E8J/e9nGpvipozuIFF0l1nq9ZeKcCWqLZMKdjv5dTD\nlzmvnUE3Jp4EbWzidBl8F2A8jGAnJcjDDeTiz2XJAAKs3Y/XuFcEHY1ktwXAmNve\n3TP+ycECPcbwHh1mT/SyOICuaaPu1Dcoiy0ZwQ7/L0CJzUhcmI1w9wKBgQClzvnC\nwWcN9tkzNK7fanzbERQFzx71M8qOj73XsupK/mkudXogPVrl9c1+Zpd7SV5rXGbI\nQDYFiA15E5P62/Q4ID7DonU13zlOm7AmoS1i94qDZT+k0WuIjzBBuFXIlY6//Qs9\nKUFWvTK6XtFuAlR/PEmYBVSDR0BniYeWjGp1EwKBgF+yO7+wOjcmbxqVRhehAuiG\nlk3yGi2MA+uTOAZAg472SUDKNr4jcet4zgx8lQrlSjUjs7ki5TCPE18opaFK1+rB\ngpCax7tWrQ6gXvNNycDxQariyZfQUw9ElozKrVAOGgt07nytu1zoNWxGxwl6rtvT\nQIWEGGRilNjneP4FkhyT\n-----END PRIVATE KEY-----\n",
+  "client_email": "hotel-reservation-project@uplifted-woods-471606-g1.iam.gserviceaccount.com",
+  "client_id": "110597403432288238799",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hotel-reservation-project%40uplifted-woods-471606-g1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

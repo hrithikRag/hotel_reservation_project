@@ -1,0 +1,5 @@
+venv/
+mlruns/
+logs/
+hotel_reservations_project.egg-info/
+gcp_key/
