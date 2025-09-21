@@ -8,8 +8,8 @@ LGBM_PARAMS={'n_estimators' : randint(50,500),
 }
 
 RANDOM_SEARCH_PARAMS={
-    'n_iter' : 10,
-    'cv' : 5,
+    'n_iter' : 5,
+    'cv' : 2,
     'n_jobs' : -1,
     'verbose' : 2,
     'random_state' : 42,
