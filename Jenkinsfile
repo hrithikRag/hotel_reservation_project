@@ -3,8 +3,8 @@ pipeline{
 
     environment{
         VENV_DIR = 'venv'
-        GCP_PROJECT = "uplifted-woods-471606-g1"
-        GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
+        GCP_PROJECT = 'uplifted-woods-471606-g1'
+        GCLOUD_PATH = '/var/jenkins_home/google-cloud-sdk/bin'
     }
 
     stages{

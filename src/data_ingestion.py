@@ -28,13 +28,10 @@ class DataIngestion:
 
             logger.info( f"Data ingestion starting from bucket : {self.bucket_name} , extracting {self.file_name}" )
 
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "uplifted-woods-471606-g1-3f228e9242d3.json"
-
-
-            client = storage.Client()
-            bucket = client.bucket(self.bucket_name)
-            blob = bucket.blob(self.file_name)
-            blob.download_to_filename(RAW_FILE_PATH)
+            #client = storage.Client()
+            #bucket = client.bucket(self.bucket_name)
+            #blob = bucket.blob(self.file_name)
+            #blob.download_to_filename(RAW_FILE_PATH)
 
             logger.info(f"CSV file successfully downloaded to {RAW_FILE_PATH}")
 
