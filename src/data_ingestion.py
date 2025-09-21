@@ -28,7 +28,7 @@ class DataIngestion:
 
             logger.info( f"Data ingestion starting from bucket : {self.bucket_name} , extracting {self.file_name}" )
 
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/hrith/OneDrive/Documents/mlops_tutorial/mlops_beginner_to_advanced/hotel_reservations_project/gcp_key/uplifted-woods-471606-g1-cea8427d1031.json"
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "uplifted-woods-471606-g1-3f228e9242d3.json"
 
 
             client = storage.Client()
