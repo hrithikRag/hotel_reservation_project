@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial=scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <tiltle>Hrithik Singh</tiltle>
+</head>
+
+<body>
+<div class="container">
+    <h2>Booked but Uncertain: Predicting Cancellations Before They Happen</h2>
+
+    <form method="POST">
+
+        <div class="form-group">
+            <label for="lead_time">Time between booking and arrival date in days : </label>
+            <input type="number" id="lead_time" name="lead_time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="no_of_special_requests">Number of special requests : </label>
+            <input type="number" id="no_of_special_requests" name="no_of_special_requests" required>
+        </div>
+
+        <div class="form-group">
+            <label for="avg_price_per_room">Average price per room : </label>
+            <input type="number" id="avg_price_per_room" name="avg_price_per_room" required>
+        </div>
+
+        <div class="form-group">
+            <label for="arrival_date">Arrival date: </label>
+            <select id="arrival_date" name="arrival_date" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>   
+        </div>
+
+        <div class="form-group">
+            <label for="arrival_month">Arrival month: </label>
+            <select id="arrival_month" name="arrival_month" required>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sept</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="market_segment_type">Market segment: </label>
+            <select id="market_segment_type" name="market_segment_type" required>
+                <option value="0">Aviation</option>
+                <option value="1">Complementary</option>
+                <option value="2">Corporate</option>
+                <option value="3">Offline</option>
+                <option value="4">Online</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="no_of_week_nights">Number of week nights booked : </label>
+            <input type="number" id="no_of_week_nights" name="no_of_week_nights" required>
+        </div>
+
+        <div class="form-group">
+            <label for="no_of_weekend_nights">Number of weekend nights booked : </label>
+            <input type="number" id="no_of_weekend_nights" name="no_of_weekend_nights" required>
+        </div>
+
+        <div class="form-group">
+            <label for="type_of_meal_plan">Type of meal plan : </label>
+            <select id="type_of_meal_plan" name="type_of_meal_plan" required>
+                <option value="0">Breakfast</option>
+                <option value="1">Breakfast and Lunch</option>
+                <option value="2">Breakfast, Lunch and Dinner</option>
+                <option value="3">Not Selected</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="room_type_reserved">Type of room booked : </label>
+            <select id="room_type_reserved" name="room_type_reserved" required>
+                <option value="0">Basic</option>
+                <option value="1">Deluxe</option>
+                <option value="2">Super Deluxe</option>
+                <option value="3">Premium</option>
+                <option value="4">Super Premium</option>
+                <option value="5">Luxe</option>
+                <option value="6">Ultra Luxe</option>
+            </select>
+        </div>
+
+        <button type="Submit">Predict the probability of cancellation</button>
+
+    </form>
+
+    {% if prediction is not none %}
+
+    <div class = "result">
+
+        {% if prediction == 0 %}
+        <p>There are high chances that customer WILL CANCEL the reservation</p>
+        {% elif prediction == 1 %}
+        <p>There are high chances that customer WILL NOT CANCEL the reservation</p>
+        {% endif %}
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+
+</html>
