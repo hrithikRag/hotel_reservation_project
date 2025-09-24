@@ -51,6 +51,9 @@ pipeline{
                         docker push gcr.io/${GCP_PROJECT}/hotel-reservation:latest
                         '''
                     }
+                }
+            }
+        }
 
         stage('Deploy to google cloud run'){
             steps{
@@ -71,7 +74,6 @@ pipeline{
                             --allow-unauthenticated
                         '''
                     }
-
                 }
             }
         }
